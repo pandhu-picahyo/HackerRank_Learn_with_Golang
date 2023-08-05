@@ -1,10 +1,5 @@
 # Catatan 30 days code challange
 # Day 0 Hello World
-scanner := bufio.NewScanner(os.Stdin) <br>
-var datainput string <br>
-scanner.Scan() <br>
-datainput = scanner.Text() <br>
-<br>
 Contoh penggunaan umum __bufio__ dalam Go termasuk: <br>
 
 1. Membaca dan Menulis dari/ke File: Anda dapat menggunakan bufio untuk membaca dan menulis data dari dan ke file dengan buffering. Ini dapat meningkatkan efisiensi operasi I/O. <br>

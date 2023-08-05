@@ -15,38 +15,14 @@ Contoh penggunaan umum __bufio__ dalam Go termasuk: <br>
 # Day 1 Data Type
 Here are some of the common tasks that the __strconv__ package can help you with: <br>
 
-1. Converting Numbers to Strings and Vice Versa: <br>
+1. Converting Numbers to Strings and Vice Versa:
 * __strconv.Itoa__ and __strconv.FormatInt__ for converting integers to strings.
 * __strconv.FormatFloat__ for converting floating-point numbers to strings.
 * __strconv.Atoi__ and __strconv.ParseInt__ for parsing strings into integers.
-* __strconv.ParseFloat__ for parsing strings into floating-point numbers.
-2. Boolean Conversions:
-
-strconv.FormatBool for converting boolean values to strings ("true" or "false").
-strconv.ParseBool for parsing strings into boolean values.
-Base Conversions:
-
-strconv.FormatInt and strconv.FormatUint for converting integers to strings with a specified base (e.g., decimal, binary, hexadecimal).
-strconv.ParseInt and strconv.ParseUint for parsing strings in various bases into integers.
-Error Handling:
-
-The functions in the strconv package return an error as the second return value if the conversion fails. You should always check this error value to handle conversion errors gracefully.Here are some of the common tasks that the strconv package can help you with:
-
-Converting Numbers to Strings and Vice Versa:
-
-strconv.Itoa and strconv.FormatInt for converting integers to strings.
-strconv.FormatFloat for converting floating-point numbers to strings.
-strconv.Atoi and strconv.ParseInt for parsing strings into integers.
-strconv.ParseFloat for parsing strings into floating-point numbers.
-Boolean Conversions:
-
-strconv.FormatBool for converting boolean values to strings ("true" or "false").
-strconv.ParseBool for parsing strings into boolean values.
-Base Conversions:
-
-strconv.FormatInt and strconv.FormatUint for converting integers to strings with a specified base (e.g., decimal, binary, hexadecimal).
-strconv.ParseInt and strconv.ParseUint for parsing strings in various bases into integers.
-Error Handling:
-
-The functions in the strconv package return an error as the second return value if the conversion fails. You should always check this error value to handle conversion errors gracefully.
-
+* __strconv.ParseFloat__ for parsing strings into floating-point numbers. <br>
+2. Boolean Conversions: 
+* __strconv.FormatBool__ for converting boolean values to strings ("true" or "false").
+* __strconv.ParseBool__ for parsing strings into boolean values. <br>
+3. Base Conversions:
+* __strconv.FormatInt__ and __strconv.FormatUint__ for converting integers to strings with a specified base (e.g., decimal, binary, hexadecimal).
+* __strconv.ParseInt__ and __strconv.ParseUint__ for parsing strings in various bases into integers. <br>

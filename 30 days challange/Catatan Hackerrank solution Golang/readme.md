@@ -16,7 +16,7 @@ Contoh penggunaan umum __bufio__ dalam Go termasuk: <br>
 Here are some of the common tasks that the __strconv__ package can help you with: <br>
 
 1. Converting Numbers to Strings and Vice Versa:
-* __strconv.Itoa__ and __strconv.FormatInt__ for converting integers to strings.
+** __strconv.Itoa__ and __strconv.FormatInt__ for converting integers to strings.
 * __strconv.FormatFloat__ for converting floating-point numbers to strings.
 * __strconv.Atoi__ and __strconv.ParseInt__ for parsing strings into integers.
 * __strconv.ParseFloat__ for parsing strings into floating-point numbers. <br>

@@ -21,3 +21,16 @@ Here are some of the common tasks that the __strconv__ package can help you with
 3. Base Conversions:
     * __strconv.FormatInt__ and __strconv.FormatUint__ for converting integers to strings with a specified base (e.g., decimal, binary, hexadecimal).
     * __strconv.ParseInt__ and __strconv.ParseUint__ for parsing strings in various bases into integers. <br>
+
+# Day 2 Operators
+Fungsi-fungsi lain yang sering dipakai dari paket math di Go meliputi:
+1. math.Floor: Fungsi ini digunakan untuk melakukan pembulatan ke bawah (rounding down) dari sebuah angka desimal (float64) ke bilangan bulat terdekat yang lebih kecil atau sama.
+2. math.Round: Fungsi ini digunakan untuk melakukan pembulatan ke bilangan bulat terdekat dari sebuah angka desimal (float64), dengan pembulatan ke atas jika bagian desimal lebih dari atau sama dengan 0.5.
+3. math.Abs: Fungsi ini mengembalikan nilai absolut (nilai positif) dari sebuah angka desimal (float64).
+4. math.Max dan math.Min: Fungsi-fungsi ini digunakan untuk mencari nilai maksimum dan minimum dari dua angka desimal.
+5. math.Pow: Fungsi ini digunakan untuk menghitung nilai dari pangkat dari suatu angka.
+6. math.Sqrt: Fungsi ini digunakan untuk menghitung akar kuadrat dari suatu angka desimal.
+7. math.Sin, math.Cos, math.Tan: Fungsi-fungsi ini digunakan untuk menghitung sinus, kosinus, dan tangen dari suatu sudut dalam radian.
+8. math.Log dan math.Exp: Fungsi-fungsi ini digunakan untuk menghitung logaritma alami dan eksponensial dari suatu angka.
+9. math.Mod: Fungsi ini mengembalikan sisa dari pembagian dua angka desimal.
+10. math.Ceil digunakan untuk melakukan pembulatan ke atas (rounding up) dari sebuah angka desimal (float64) ke bilangan bulat terdekat yang lebih besar atau sama.
